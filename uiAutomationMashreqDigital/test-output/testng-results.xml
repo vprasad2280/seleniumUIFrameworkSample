@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\verifylink_12_06_2020_07_19_21.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\verifylink_12_06_2020_07_19_21.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\click menu link_12_06_2020_07_19_22.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\click menu link_12_06_2020_07_19_22.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\tooltip link _12_06_2020_07_19_23.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\tooltip link _12_06_2020_07_19_23.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\Mobile field  test========_12_06_2020_07_21_45.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\Mobile field  test========_12_06_2020_07_21_45.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\ I am looking to  test========_12_06_2020_07_21_45.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\ I am looking to  test========_12_06_2020_07_21_45.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\valid data for contact form ========_12_06_2020_07_21_46.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\valid data for contact form ========_12_06_2020_07_21_46.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\Contact form test========_12_06_2020_07_24_41.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\Contact form test========_12_06_2020_07_24_41.png' height='100' width='100'/> </a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="411527" started-at="2020-06-12T13:47:50Z" finished-at="2020-06-12T13:54:42Z">
+    <groups>
+    </groups>
+    <test name="HomePageTest" duration-ms="411527" started-at="2020-06-12T13:47:50Z" finished-at="2020-06-12T13:54:42Z">
+      <class name="com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases@12f41634]" name="setUp" is-config="true" duration-ms="90293" started-at="2020-06-12T19:17:50Z" finished-at="2020-06-12T19:19:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases@12f41634]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2020-06-12T19:19:20Z" finished-at="2020-06-12T19:19:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases.HomePageTC001_verifyNavigationlinks()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="HomePageTC001_verifyNavigationlinks()[pri:1, instance:com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases@12f41634]" name="HomePageTC001_verifyNavigationlinks" duration-ms="1449" started-at="2020-06-12T19:19:20Z" description="-	This TC displays the navigation links should be visible on desktop devices and display 9 items: Corporate, Business, International etc " finished-at="2020-06-12T19:19:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\verifylink_12_06_2020_07_19_21.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\verifylink_12_06_2020_07_19_21.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- HomePageTC001_verifyNavigationlinks -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases@12f41634]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-06-12T19:19:22Z" finished-at="2020-06-12T19:19:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageTC001_verifyNavigationlinks status=SUCCESS method=HomePageTestCases.HomePageTC001_verifyNavigationlinks()[pri:1, instance:com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases@12f41634] output=<a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\verifylink_12_06_2020_07_19_21.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\verifylink_12_06_2020_07_19_21.png' height='100' width='100'/> </a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="HomePageTC002_ClickNavlink()[pri:2, instance:com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases@12f41634]" name="HomePageTC002_ClickNavlink" duration-ms="790" started-at="2020-06-12T19:19:22Z" description="this test case click on navigationl link of user choice" finished-at="2020-06-12T19:19:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\click menu link_12_06_2020_07_19_22.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\click menu link_12_06_2020_07_19_22.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- HomePageTC002_ClickNavlink -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases@12f41634]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-12T19:19:22Z" finished-at="2020-06-12T19:19:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases.HomePageTC002_ClickNavlink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases@12f41634]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-06-12T19:19:23Z" finished-at="2020-06-12T19:19:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageTC002_ClickNavlink status=SUCCESS method=HomePageTestCases.HomePageTC002_ClickNavlink()[pri:2, instance:com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases@12f41634] output=<a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\click menu link_12_06_2020_07_19_22.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\click menu link_12_06_2020_07_19_22.png' height='100' width='100'/> </a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="HomePageTC003_ClicTooltiplink()[pri:3, instance:com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases@12f41634]" name="HomePageTC003_ClicTooltiplink" duration-ms="736" started-at="2020-06-12T19:19:23Z" description="This test case click tooltip link of user choice" finished-at="2020-06-12T19:19:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\tooltip link _12_06_2020_07_19_23.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\tooltip link _12_06_2020_07_19_23.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- HomePageTC003_ClicTooltiplink -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases@12f41634]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-12T19:19:23Z" finished-at="2020-06-12T19:19:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases.HomePageTC003_ClicTooltiplink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases@12f41634]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-06-12T19:19:23Z" finished-at="2020-06-12T19:19:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageTC003_ClicTooltiplink status=SUCCESS method=HomePageTestCases.HomePageTC003_ClicTooltiplink()[pri:3, instance:com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases@12f41634] output=<a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\tooltip link _12_06_2020_07_19_23.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\tooltip link _12_06_2020_07_19_23.png' height='100' width='100'/> </a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases@12f41634]" name="endTest" is-config="true" duration-ms="391" started-at="2020-06-12T19:19:23Z" finished-at="2020-06-12T19:19:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases -->
+      <class name="com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases@13c27452]" name="setUp" is-config="true" duration-ms="141012" started-at="2020-06-12T19:19:24Z" finished-at="2020-06-12T19:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ContactPageTC001_verifyPhoneNumberField()[pri:4, instance:com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases@13c27452]" name="ContactPageTC001_verifyPhoneNumberField" duration-ms="545" started-at="2020-06-12T19:21:45Z" description="This test case Validates-Entering a number that is less or greater than 7 digits in the “Mobile Number” field should show an error. Entering a number that is 7 digits should not show an error " finished-at="2020-06-12T19:21:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\Mobile field  test========_12_06_2020_07_21_45.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\Mobile field  test========_12_06_2020_07_21_45.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ContactPageTC001_verifyPhoneNumberField -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases@13c27452]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-12T19:21:45Z" finished-at="2020-06-12T19:21:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases.ContactPageTC001_verifyPhoneNumberField()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases@13c27452]" name="afterMethod" is-config="true" duration-ms="3" started-at="2020-06-12T19:21:45Z" finished-at="2020-06-12T19:21:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ContactPageTC001_verifyPhoneNumberField status=SUCCESS method=ContactPageFieldValidationTestCases.ContactPageTC001_verifyPhoneNumberField()[pri:4, instance:com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases@13c27452] output=<a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\Mobile field  test========_12_06_2020_07_21_45.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\Mobile field  test========_12_06_2020_07_21_45.png' height='100' width='100'/> </a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ContactPageTC002_verify_Iamlookingto()[pri:5, instance:com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases@13c27452]" name="ContactPageTC002_verify_Iamlookingto" duration-ms="490" started-at="2020-06-12T19:21:45Z" description="This test case displays number of items in &lt;I am looking to…&gt; dropdown list and select one set by user" finished-at="2020-06-12T19:21:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\ I am looking to  test========_12_06_2020_07_21_45.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\ I am looking to  test========_12_06_2020_07_21_45.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ContactPageTC002_verify_Iamlookingto -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases@13c27452]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-12T19:21:45Z" finished-at="2020-06-12T19:21:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases.ContactPageTC002_verify_Iamlookingto()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases@13c27452]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-06-12T19:21:46Z" finished-at="2020-06-12T19:21:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ContactPageTC002_verify_Iamlookingto status=SUCCESS method=ContactPageFieldValidationTestCases.ContactPageTC002_verify_Iamlookingto()[pri:5, instance:com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases@13c27452] output=<a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\ I am looking to  test========_12_06_2020_07_21_45.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\ I am looking to  test========_12_06_2020_07_21_45.png' height='100' width='100'/> </a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases@13c27452]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-12T19:21:46Z" finished-at="2020-06-12T19:21:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases.ContactPageTC003_verifyContactFormFields_validdata()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ContactPageTC003_verifyContactFormFields_validdata()[pri:6, instance:com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases@13c27452]" name="ContactPageTC003_verifyContactFormFields_validdata" duration-ms="451" started-at="2020-06-12T19:21:46Z" description="This test case Validates for all valid data for contact form " finished-at="2020-06-12T19:21:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\valid data for contact form ========_12_06_2020_07_21_46.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\valid data for contact form ========_12_06_2020_07_21_46.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ContactPageTC003_verifyContactFormFields_validdata -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases@13c27452]" name="endTest" is-config="true" duration-ms="159" started-at="2020-06-12T19:21:46Z" finished-at="2020-06-12T19:21:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases@13c27452]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-06-12T19:21:46Z" finished-at="2020-06-12T19:21:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ContactPageTC003_verifyContactFormFields_validdata status=SUCCESS method=ContactPageFieldValidationTestCases.ContactPageTC003_verifyContactFormFields_validdata()[pri:6, instance:com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases@13c27452] output=<a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\valid data for contact form ========_12_06_2020_07_21_46.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\valid data for contact form ========_12_06_2020_07_21_46.png' height='100' width='100'/> </a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases -->
+      <class name="com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageTestCases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageTestCases@262b2c86]" name="setUp" is-config="true" duration-ms="174148" started-at="2020-06-12T19:21:46Z" finished-at="2020-06-12T19:24:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageTestCases@262b2c86]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-12T19:24:41Z" finished-at="2020-06-12T19:24:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageTestCases.verifyContactFormFields()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyContactFormFields()[pri:7, instance:com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageTestCases@262b2c86]" name="verifyContactFormFields" duration-ms="902" started-at="2020-06-12T19:24:41Z" description="This test case display tooltip links list and clicks contact page link " finished-at="2020-06-12T19:24:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\Contact form test========_12_06_2020_07_24_41.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\Contact form test========_12_06_2020_07_24_41.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyContactFormFields -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageTestCases@262b2c86]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-06-12T19:24:42Z" finished-at="2020-06-12T19:24:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyContactFormFields status=SUCCESS method=ContactPageTestCases.verifyContactFormFields()[pri:7, instance:com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageTestCases@262b2c86] output=<a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\Contact form test========_12_06_2020_07_24_41.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\Contact form test========_12_06_2020_07_24_41.png' height='100' width='100'/> </a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageTestCases@262b2c86]" name="endTest" is-config="true" duration-ms="101" started-at="2020-06-12T19:24:42Z" finished-at="2020-06-12T19:24:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageTestCases -->
+    </test> <!-- HomePageTest -->
+  </suite> <!-- Regression Suite -->
+</testng-results>

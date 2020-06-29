@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Regression_Suite">
+              <span class="suite-name border-passed">Regression Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Regression_Suite">
+                    <span>C:\Users\ReNew\Downloads\MasherqDigitalTest-master\testNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Regression_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Regression_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Regression_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Regression_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Regression_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Regression_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Regression_Suite" class="hide-methods passed suite-Regression_Suite"> (hide)</a> <!-- hide-methods passed suite-Regression_Suite -->
+                      <a href="#" panel-name="suite-Regression_Suite" class="show-methods passed suite-Regression_Suite"> (show)</a> <!-- show-methods passed suite-Regression_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Regression_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases" hash-for-method="ContactPageTC001_verifyPhoneNumberField">ContactPageTC001_verifyPhoneNumberField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases" hash-for-method="ContactPageTC002_verify_Iamlookingto">ContactPageTC002_verify_Iamlookingto</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases" hash-for-method="ContactPageTC003_verifyContactFormFields_validdata">ContactPageTC003_verifyContactFormFields_validdata</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases" hash-for-method="HomePageTC001_verifyNavigationlinks">HomePageTC001_verifyNavigationlinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases" hash-for-method="HomePageTC002_ClickNavlink">HomePageTC002_ClickNavlink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases" hash-for-method="HomePageTC003_ClicTooltiplink">HomePageTC003_ClicTooltiplink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageTestCases" hash-for-method="verifyContactFormFields">verifyContactFormFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Regression_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Regression_Suite" class="panel Regression_Suite">
+          <div class="suite-Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ContactPageTC001_verifyPhoneNumberField">
+                  </a> <!-- ContactPageTC001_verifyPhoneNumberField -->
+                  <span class="method-name">ContactPageTC001_verifyPhoneNumberField</span>
+                  <em>
+(This test case Validates-Entering a number that is less or greater than 7 digits in the “Mobile Number” field should show an error. Entering a number that is 7 digits should not show an error )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ContactPageTC002_verify_Iamlookingto">
+                  </a> <!-- ContactPageTC002_verify_Iamlookingto -->
+                  <span class="method-name">ContactPageTC002_verify_Iamlookingto</span>
+                  <em>
+(This test case displays number of items in <I am looking to…> dropdown list and select one set by user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ContactPageTC003_verifyContactFormFields_validdata">
+                  </a> <!-- ContactPageTC003_verifyContactFormFields_validdata -->
+                  <span class="method-name">ContactPageTC003_verifyContactFormFields_validdata</span>
+                  <em>
+(This test case Validates for all valid data for contact form )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Suite-class-passed -->
+          <div class="suite-Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyContactFormFields">
+                  </a> <!-- verifyContactFormFields -->
+                  <span class="method-name">verifyContactFormFields</span>
+                  <em>
+(This test case display tooltip links list and clicks contact page link )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Suite-class-passed -->
+          <div class="suite-Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageTC001_verifyNavigationlinks">
+                  </a> <!-- HomePageTC001_verifyNavigationlinks -->
+                  <span class="method-name">HomePageTC001_verifyNavigationlinks</span>
+                  <em>
+(-	This TC displays the navigation links should be visible on desktop devices and display 9 items: Corporate, Business, International etc )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageTC002_ClickNavlink">
+                  </a> <!-- HomePageTC002_ClickNavlink -->
+                  <span class="method-name">HomePageTC002_ClickNavlink</span>
+                  <em>
+(this test case click on navigationl link of user choice)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePageTC003_ClicTooltiplink">
+                  </a> <!-- HomePageTC003_ClicTooltiplink -->
+                  <span class="method-name">HomePageTC003_ClicTooltiplink</span>
+                  <em>
+(This test case click tooltip link of user choice)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Suite-class-passed -->
+        </div> <!-- panel Regression_Suite -->
+        <div panel-name="test-xml-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ReNew\Downloads\MasherqDigitalTest-master\testNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Regression Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.test.uiAutomation.MasherqDigital.customListner.RetryListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;HomePageTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases&quot;/&gt;
+      &lt;class name=&quot;com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases&quot;/&gt;
+      &lt;class name=&quot;com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HomePageTest --&gt;
+&lt;/suite&gt; &lt;!-- Regression Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">HomePageTest (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Regression_Suite');
+function tableData_Regression_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'HomePageTC001_verifyNavigationlinks')
+data.setCell(0, 2, 'com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases')
+data.setCell(0, 3, 1449);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyContactFormFields')
+data.setCell(1, 2, 'com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageTestCases')
+data.setCell(1, 3, 902);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'HomePageTC002_ClickNavlink')
+data.setCell(2, 2, 'com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases')
+data.setCell(2, 3, 790);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'HomePageTC003_ClicTooltiplink')
+data.setCell(3, 2, 'com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases')
+data.setCell(3, 3, 736);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ContactPageTC001_verifyPhoneNumberField')
+data.setCell(4, 2, 'com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases')
+data.setCell(4, 3, 545);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ContactPageTC002_verify_Iamlookingto')
+data.setCell(5, 2, 'com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases')
+data.setCell(5, 3, 490);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ContactPageTC003_verifyContactFormFields_validdata')
+data.setCell(6, 2, 'com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases')
+data.setCell(6, 3, 451);
+window.suiteTableData['Regression_Suite']= { tableData: data, tableDiv: 'times-div-Regression_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <div id="times-div-Regression_Suite">
+              </div> <!-- times-div-Regression_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">HomePageTC003_ClicTooltiplink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\tooltip link _12_06_2020_07_19_23.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\tooltip link _12_06_2020_07_19_23.png' height='100' width='100'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">HomePageTC002_ClickNavlink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\click menu link_12_06_2020_07_19_22.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\click menu link_12_06_2020_07_19_22.png' height='100' width='100'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ContactPageTC002_verify_Iamlookingto</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\ I am looking to  test========_12_06_2020_07_21_45.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\ I am looking to  test========_12_06_2020_07_21_45.png' height='100' width='100'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">HomePageTC001_verifyNavigationlinks</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\verifylink_12_06_2020_07_19_21.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\verifylink_12_06_2020_07_19_21.png' height='100' width='100'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ContactPageTC003_verifyContactFormFields_validdata</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\valid data for contact form ========_12_06_2020_07_21_46.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\valid data for contact form ========_12_06_2020_07_21_46.png' height='100' width='100'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyContactFormFields</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\Contact form test========_12_06_2020_07_24_41.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\Contact form test========_12_06_2020_07_24_41.png' height='100' width='100'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ContactPageTC001_verifyPhoneNumberField</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\Mobile field  test========_12_06_2020_07_21_45.png'> <img src='C:\Users\ReNew\Downloads\MasherqDigitalTest-master\src\main\java\com\test\automation\uiAutomation\screenshot\Mobile field  test========_12_06_2020_07_21_45.png' height='100' width='100'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases.HomePageTC001_verifyNavi...)</span>
+                <span class="method-start">90300 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">HomePageTC001_verifyNavigationlinks</span>
+                <span class="method-start">90307 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=HomePageTC001_verifyNavigationlinks status=SUCCESS method=HomePageTestCases.HomePag...)</span>
+                <span class="method-start">91758 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">HomePageTC002_ClickNavlink</span>
+                <span class="method-start">91762 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases.HomePageTC002_ClickNavli...)</span>
+                <span class="method-start">91762 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=HomePageTC002_ClickNavlink status=SUCCESS method=HomePageTestCases.HomePageTC002_Cl...)</span>
+                <span class="method-start">92553 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">HomePageTC003_ClicTooltiplink</span>
+                <span class="method-start">92558 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases.HomePageTC003_ClicToolti...)</span>
+                <span class="method-start">92558 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=HomePageTC003_ClicTooltiplink status=SUCCESS method=HomePageTestCases.HomePageTC003...)</span>
+                <span class="method-start">93296 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">93296 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">93688 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ContactPageTC001_verifyPhoneNumberField</span>
+                <span class="method-start">234701 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases.Con...)</span>
+                <span class="method-start">234701 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ContactPageTC001_verifyPhoneNumberField status=SUCCESS method=ContactPageFieldValid...)</span>
+                <span class="method-start">235249 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ContactPageTC002_verify_Iamlookingto</span>
+                <span class="method-start">235252 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases.Con...)</span>
+                <span class="method-start">235252 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ContactPageTC002_verify_Iamlookingto status=SUCCESS method=ContactPageFieldValidati...)</span>
+                <span class="method-start">235743 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ContactPageTC003_verifyContactFormFields_validdata</span>
+                <span class="method-start">235746 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageFieldValidationTestCases.Con...)</span>
+                <span class="method-start">235746 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ContactPageTC003_verifyContactFormFields_validdata status=SUCCESS method=ContactPag...)</span>
+                <span class="method-start">236202 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">236202 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">236361 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.uiAutomation.MasherqDigital.ContactPage.ContactPageTestCases.verifyContactFormF...)</span>
+                <span class="method-start">410510 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyContactFormFields</span>
+                <span class="method-start">410510 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyContactFormFields status=SUCCESS method=ContactPageTestCases.verifyContactFor...)</span>
+                <span class="method-start">411413 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">411414 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

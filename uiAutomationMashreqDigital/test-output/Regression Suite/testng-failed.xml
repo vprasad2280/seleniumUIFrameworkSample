@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <listeners>
+    <listener class-name="com.test.uiAutomation.MasherqDigital.customListner.RetryListener"/>
+  </listeners>
+  <test thread-count="5" name="HomePageTest(failed)">
+    <classes>
+      <class name="com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases">
+        <methods>
+          <include name="ClicTooltiplink"/>
+          <include name="ClickMenulink"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+          <include name="verifylink"/>
+        </methods>
+      </class> <!-- com.test.uiAutomation.MasherqDigital.HomePage.HomePageTestCases -->
+    </classes>
+  </test> <!-- HomePageTest(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->
